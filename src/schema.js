@@ -47,7 +47,7 @@ const typeDefs = gql`
     numberOfViews: Int
     "The track's complete array of Modules"
     modules: [Module!]!
-  }l
+  }
 
   "Author of a complete Track or a Module"
   type Author {
